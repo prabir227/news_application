@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:news_application/news_screen.dart';
+import 'package:news_application/view/news_screen.dart';
 
 class NewsScreenController extends GetxController{
   RxString  ?url = "".obs;

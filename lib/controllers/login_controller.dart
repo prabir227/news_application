@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:news_application/home_screen.dart';
+import 'package:news_application/view/home_screen.dart';
 
 class LoginController extends GetxController{
   final FirebaseAuth inst = FirebaseAuth.instance;

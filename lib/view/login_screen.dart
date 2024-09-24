@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:news_application/controllers/login_controller.dart';
-import 'package:news_application/reusable_widgets.dart';
+import 'package:news_application/utility/reusable_widgets.dart';
 import 'package:get/get.dart';
-import 'package:news_application/sign_up.dart';
+import 'package:news_application/view/sign_up.dart';
 
 class LoginScreen extends StatefulWidget{
   @override

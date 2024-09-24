@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news_application/controllers/signup_controller.dart';
-import 'package:news_application/reusable_widgets.dart';
+import 'package:news_application/utility/reusable_widgets.dart';
 
 class SignupScreen extends StatefulWidget{
   @override
