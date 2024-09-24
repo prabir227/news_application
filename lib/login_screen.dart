@@ -20,7 +20,9 @@ class LoginScreenState extends State<LoginScreen>{
           mainAxisAlignment: MainAxisAlignment.center,
             children: [
               reusableTextField("Enter gmail", Icon(Icons.email_outlined), loginController.emailController.value,false),
+              SizedBox(height: 30,),
               reusableTextField("Enter password", Icon(Icons.keyboard_alt_outlined),loginController.passController.value,true),
+              SizedBox(height: 30,),
               Obx((){
                 return Container(
                   child: loginController.flag.value?CircularProgressIndicator():ElevatedButton(
@@ -45,6 +47,7 @@ class LoginScreenState extends State<LoginScreen>{
                   ),
                 );}
               ),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

@@ -21,7 +21,9 @@ class SignupScreenState extends State<SignupScreen>{
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             reusableTextField("Enter gmail", Icon(Icons.email_outlined), signUpController.emailController.value,false),
+            SizedBox(height: 30,),
             reusableTextField("Enter password", Icon(Icons.keyboard_alt_outlined), signUpController.passController.value,true),
+            SizedBox(height: 30,),
             Obx((){
               return  Container(
                 child: signUpController.flag.value?CircularProgressIndicator():ElevatedButton(
